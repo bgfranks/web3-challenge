@@ -16,6 +16,7 @@ module.exports = {
       'soft-orange': 'hsl(35, 77%, 62%)',
       'soft-red': 'hsl(5, 85%, 63%)',
       'off-white': 'hsl(36, 100%, 99%)',
+      'black': '#000',
       'blue-gray': {
         500: 'hsl(233, 8%, 79%)',
         700: 'hsl(236, 13%, 42%)',
