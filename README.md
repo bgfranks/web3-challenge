@@ -32,3 +32,38 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Soft orange: hsl(35, 77%, 62%)
+- Soft red: hsl(5, 85%, 63%)
+
+### Neutral
+
+Off-white: hsl(36, 100%, 99%)
+Grayish blue: hsl(233, 8%, 79%)
+Dark grayish blue: hsl(236, 13%, 42%)
+Very dark blue: hsl(240, 100%, 5%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Weights: 400, 700, 800
+# web3-challenge
