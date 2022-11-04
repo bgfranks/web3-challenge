@@ -6,12 +6,12 @@ import CtaDesktopImage from '../public/assets/images/image-web-3-desktop.jpg'
 
 export default function CTA() {
   return (
-    <div>
+    <div className='my-5'>
       <div>
         <Image src={CtaMobileImage} alt='Call to Action Image' />
       </div>
       <div className=''>
-        <h1 className='text-4xl font-bold py-5 w-[70%]'>
+        <h1 className='text-5xl font-bold py-5'>
           The Bright Future of Web 3.0?
         </h1>
         <p className='text-blue-gray-700 leading-6'>
