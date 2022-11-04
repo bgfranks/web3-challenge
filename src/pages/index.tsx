@@ -1,4 +1,7 @@
 import Head from 'next/head'
+
+// components
+import CTA from '../components/CTA'
 import Navbar from '../components/Navbar'
 
 export default function Home() {
@@ -10,7 +13,9 @@ export default function Home() {
         <link rel='icon' href='../public/assests/images/favicon-32x32.png' />
       </Head>
       <Navbar />
-      <main className=''>CTA</main>
+      <main className=''>
+        <CTA />
+      </main>
     </div>
   )
 }
