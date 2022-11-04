@@ -15,27 +15,29 @@ export default function Navbar() {
       <div>
         <Image src={Logo} alt='W' />
       </div>
-      <div className='z-1000' onClick={() => setActive(!active)}>
-        <Image
-          src={active ? CloseMenu : HamburgerMenu}
-          alt='nav menu icon'
-          className=''
-        />
-        {active && (
-          <div className='z-2 absolute right-0 w-screen flex top-0 h-screen'>
-            <div className='bg-black w-[30%] opacity-50'></div>
-            <div className='flex justify-end bg-off-white pr-10'>
-              <nav className='flex flex-col pt-[100%] gap-5 text-xl pl-10'>
-                <Link href='#'>Home</Link>
-                <Link href='#'>New</Link>
-                <Link href='#'>Trending</Link>
-                <Link href='#'>Popular</Link>
-                <Link href='#'>Categories</Link>
-              </nav>
-            </div>
+      <Image
+        src={active ? CloseMenu : HamburgerMenu}
+        alt='nav menu icon'
+        className='z-50'
+        onClick={() => setActive(!active)}
+      />
+      {active && (
+        <div className='z-2 absolute right-0 w-screen flex top-0 h-screen overflow-hidden'>
+          <div
+            className='bg-black w-[30%] opacity-50'
+            onClick={() => setActive(!active)}
+          ></div>
+          <div className='bg-off-white w-[70%]'>
+            <nav className='flex flex-col justify-start pt-[70%] gap-5 text-2xl pl-10'>
+              <Link href='#'>Home</Link>
+              <Link href='#'>New</Link>
+              <Link href='#'>Trending</Link>
+              <Link href='#'>Popular</Link>
+              <Link href='#'>Categories</Link>
+            </nav>
           </div>
-        )}
-      </div>
+        </div>
+      )}
     </header>
   )
 }
