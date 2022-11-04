@@ -19,7 +19,7 @@ export default function CTA() {
           power of the platforms back into the hands of the people. But is it
           really fulfilling its promises?
         </p>
-        <button className='my-5 bg-soft-red text-off-white font-bold text-sm px-8 py-3 tracking-[.3rem]'>
+        <button className='my-5 bg-soft-red text-off-white font-bold text-sm px-8 py-3 tracking-[.3rem] hover:bg-blue-gray-900 transition-durration'>
           READ MORE
         </button>
       </div>
