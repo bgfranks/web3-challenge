@@ -2,3 +2,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .new-section-card {
+    @apply border-b border-blue-gray-500 mb-7;
+  }
+
+  .new-section-card-header {
+    @apply text-2xl pb-3;
+  }
+
+  .new-section-card-text {
+    @apply text-blue-gray-500 pb-7;
+  }
+}
