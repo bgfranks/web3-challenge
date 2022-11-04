@@ -6,7 +6,7 @@ import CtaDesktopImage from '../public/assets/images/image-web-3-desktop.jpg'
 
 export default function CTA() {
   return (
-    <div className='my-5'>
+    <div className='mt-5 mb-10'>
       <div>
         <Image src={CtaMobileImage} alt='Call to Action Image' />
       </div>

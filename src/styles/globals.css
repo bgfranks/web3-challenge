@@ -15,4 +15,20 @@
   .new-section-card-text {
     @apply text-blue-gray-500 pb-7;
   }
+
+  .article-card {
+    @apply flex gap-5 my-7;
+  }
+
+  .article-card-number {
+    @apply text-blue-gray-500 text-3xl font-semibold pb-2;
+  }
+
+  .article-card-header {
+    @apply text-lg font-semibold pb-2;
+  }
+
+  .article-card-text {
+    @apply text-blue-gray-700 text-base;
+  }
 }
