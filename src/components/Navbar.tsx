@@ -33,11 +33,21 @@ export default function Navbar({ handleToggleNav, isActive }: Props) {
           ></div>
           <div className='bg-off-white w-[70%]'>
             <nav className='flex flex-col justify-start pt-[70%] gap-5 text-2xl pl-10'>
-              <Link href='#'>Home</Link>
-              <Link href='#'>New</Link>
-              <Link href='#'>Trending</Link>
-              <Link href='#'>Popular</Link>
-              <Link href='#'>Categories</Link>
+              <Link href='#' className='nav-item'>
+                Home
+              </Link>
+              <Link href='#' className='nav-item'>
+                New
+              </Link>
+              <Link href='#' className='nav-item'>
+                Trending
+              </Link>
+              <Link href='#' className='nav-item'>
+                Popular
+              </Link>
+              <Link href='#' className='nav-item'>
+                Categories
+              </Link>
             </nav>
           </div>
         </div>
