@@ -5,6 +5,7 @@ import { useState } from 'react'
 import CTA from '../components/CTA'
 import Navbar from '../components/Navbar'
 import NewSection from '../components/NewSection'
+import Articles from '../components/Articles'
 
 export default function Home() {
   const [isActive, setIsActive] = useState(false)
@@ -29,6 +30,7 @@ export default function Home() {
       <main>
         <CTA />
         <NewSection />
+        <Articles />
       </main>
     </div>
   )

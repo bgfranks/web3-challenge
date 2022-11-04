@@ -1,6 +1,6 @@
 export default function NewSection() {
   return (
-    <div className='bg-blue-gray-900 text-off-white px-5 py-7 my-5'>
+    <div className='bg-blue-gray-900 text-off-white px-5 py-7 my-10'>
       <h2 className='text-soft-orange text-4xl pb-7'>New</h2>
       <div>
         <div className='new-section-card'>
