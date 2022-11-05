@@ -16,15 +16,15 @@
 
   /* New Section */
   .new-section-card {
-    @apply border-b border-blue-gray-500 mb-7;
+    @apply border-b border-blue-gray-500 mb-7 lg:mb-12;
   }
 
   .new-section-card-header {
-    @apply text-2xl pb-3 hover:text-soft-orange cursor-pointer transition-durration;
+    @apply text-2xl font-semibold pb-3 hover:text-soft-orange cursor-pointer transition-durration lg:text-xl;
   }
 
   .new-section-card-text {
-    @apply text-blue-gray-500 pb-7;
+    @apply text-blue-gray-500 pb-7 text-lg;
   }
 
   /* Article Section */

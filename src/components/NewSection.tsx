@@ -1,7 +1,7 @@
 export default function NewSection() {
   return (
     <div className='bg-blue-gray-900 text-off-white px-5 py-7 my-10 lg:row-end-2 lg:m-0'>
-      <h2 className='text-soft-orange text-4xl pb-7'>New</h2>
+      <h2 className='text-soft-orange text-4xl pb-7 font-bold'>New</h2>
       <div>
         <div className='new-section-card'>
           <h3 className='new-section-card-header'>Hydrogen VS Electic Cars</h3>
