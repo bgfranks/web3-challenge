@@ -9,10 +9,12 @@ type Props = {}
 
 export default function Articles({}: Props) {
   return (
-    <div className='my-20'>
+    <div className='my-20 lg:flex gap-6 items-center justify-center'>
       <div className='article-card'>
-        <Image src={RetroPcImg} alt='Retro PC' className='w-[210px]' />
-        <div className=''>
+        <div className='article-card-img-container'>
+          <Image src={RetroPcImg} alt='Retro PC' fill />
+        </div>
+        <div className='w-[70%]'>
           <h3 className='article-card-number'>01</h3>
           <h4 className='article-card-header'>Reviving Retro PCs</h4>
           <p className='article-card-text'>
@@ -21,8 +23,10 @@ export default function Articles({}: Props) {
         </div>
       </div>
       <div className='article-card'>
-        <Image src={TopLaptopsImg} alt='Top Laptops' className='w-[175px]' />
-        <div className=''>
+        <div className='article-card-img-container'>
+          <Image src={TopLaptopsImg} alt='Top Laptops' fill />
+        </div>
+        <div className=' w-[70%]'>
           <h3 className='article-card-number'>02</h3>
           <h4 className='article-card-header'>top 10 Laptops of 2022</h4>
           <p className='article-card-text'>
@@ -31,12 +35,10 @@ export default function Articles({}: Props) {
         </div>
       </div>
       <div className='article-card'>
-        <Image
-          src={GamingGrowthImg}
-          alt='Growth of Gaming'
-          className='w-[200px]'
-        />
-        <div>
+        <div className='article-card-img-container'>
+          <Image src={GamingGrowthImg} alt='Growth of Gaming' fill />
+        </div>
+        <div className='w-[70%]'>
           <h3 className='article-card-number'>03</h3>
           <h4 className='article-card-header'>The Growth of Gaming</h4>
           <p className='article-card-text'>

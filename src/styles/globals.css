@@ -27,8 +27,13 @@
     @apply text-blue-gray-500 pb-7;
   }
 
+  /* Article Section */
   .article-card {
     @apply flex gap-5 my-7;
+  }
+
+  .article-card-img-container {
+    @apply h-[160px] w-[150px] relative;
   }
 
   .article-card-number {
