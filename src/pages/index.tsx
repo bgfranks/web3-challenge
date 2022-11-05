@@ -27,7 +27,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Navbar handleToggleNav={handleToggleNav} isActive={isActive} />
-      <main>
+      <main className='lg:grid grid-cols-3 gap-5'>
         <CTA />
         <NewSection />
         <Articles />
