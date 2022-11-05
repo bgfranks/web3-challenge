@@ -36,8 +36,12 @@
     @apply h-[160px] w-[150px] relative;
   }
 
+  .article-card-text-container {
+    @apply w-[70%] flex flex-col justify-between;
+  }
+
   .article-card-number {
-    @apply text-blue-gray-500 text-3xl font-semibold pb-2;
+    @apply text-blue-gray-500 text-2xl font-semibold pb-2;
   }
 
   .article-card-header {
@@ -45,6 +49,6 @@
   }
 
   .article-card-text {
-    @apply text-blue-gray-700 text-base;
+    @apply text-blue-gray-700 text-base lg:text-base;
   }
 }

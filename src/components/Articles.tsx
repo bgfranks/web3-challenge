@@ -14,7 +14,7 @@ export default function Articles({}: Props) {
         <div className='article-card-img-container'>
           <Image src={RetroPcImg} alt='Retro PC' fill />
         </div>
-        <div className='w-[70%]'>
+        <div className='article-card-text-container'>
           <h3 className='article-card-number'>01</h3>
           <h4 className='article-card-header'>Reviving Retro PCs</h4>
           <p className='article-card-text'>
@@ -26,7 +26,7 @@ export default function Articles({}: Props) {
         <div className='article-card-img-container'>
           <Image src={TopLaptopsImg} alt='Top Laptops' fill />
         </div>
-        <div className=' w-[70%]'>
+        <div className='article-card-text-container'>
           <h3 className='article-card-number'>02</h3>
           <h4 className='article-card-header'>top 10 Laptops of 2022</h4>
           <p className='article-card-text'>
@@ -38,7 +38,7 @@ export default function Articles({}: Props) {
         <div className='article-card-img-container'>
           <Image src={GamingGrowthImg} alt='Growth of Gaming' fill />
         </div>
-        <div className='w-[70%]'>
+        <div className='article-card-text-container'>
           <h3 className='article-card-number'>03</h3>
           <h4 className='article-card-header'>The Growth of Gaming</h4>
           <p className='article-card-text'>
